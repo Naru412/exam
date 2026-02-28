@@ -9,7 +9,7 @@
 
 #お問い合わせフォーム課題
 
-# 環境構築
+## 環境構築
     Dockerビルド
     ・git clone git@github.com:Naru412/exam.git
     ・docker-compose up -d --build
@@ -17,11 +17,20 @@
     ・docker-compose exec php bash
     ・composer install
     ・cp .env.example .env
+
+    以下のようにデータベース情報修正
+    DB_CONNECTION=mysql
+    DB_HOST=mysql
+    DB_PORT=3306
+    DB_DATABASE=laravel_db
+    DB_USERNAME=laravel_user
+    DB_PASSWORD=laravel_pass
+
     ・php artisan key:generate
     ・php artisan migrate
     ・php artisan db:seed
 
-# 開発環境
+## 開発環境
     ・お問い合わせ画面　　　http://localhost/
     ・お問い合わせ確認画面　http://localhost/contacts/confirm
     ・サンクス画面　　　　　http://localhost/contacts/store
@@ -30,11 +39,11 @@
     ・管理画面　　　　　　　http://localhost/admin
     ・phpMyAdmin          ocalhost:8080/
 
-# 使用技術
+## 使用技術
     nginx:1.21.1
     mysql:8.0.26
     PHP 8.1.34     
     Laravel Framework 8.83.29
 
-# ER図
+## ER図
 ![alt text](images/image-1.png)
