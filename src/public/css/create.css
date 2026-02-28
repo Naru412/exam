@@ -1,0 +1,101 @@
+.contact {
+    max-width: 950px;
+    margin: 50px auto;
+    background: #fff;
+    align-items: center;
+}
+
+.contact__title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    width: 120px;
+    margin-right: 100px;
+    text-align: right;
+}
+
+.form-group .form-input {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 0;
+}
+
+.form-input input,
+.form-input select,
+.form-input textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+}
+
+.form-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.form-input input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.tel-input input {
+    width: 60px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.form-input[type="text"] {
+    margin-right: 10px;
+}
+
+.form-input textarea {
+    height: 120px;
+    resize: none;
+}
+
+.form-button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form-button button {
+    background-color: #8c7b6b;
+    color: #fff;
+    border: none;
+    padding: 12px 40px;
+    cursor: pointer;
+} 
+
+.error {
+    color: red;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.tel-input .error,
+.radio-group .error {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.tel-input {
+    display: flex;
+    align-items: flex-start;
+    /* エラーがあっても入力欄の位置は揃える */
+    gap: 5px;
+}

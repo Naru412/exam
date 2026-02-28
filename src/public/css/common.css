@@ -1,0 +1,38 @@
+.header {
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.header__logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #8B7969;
+}
+
+.login-button {
+    background: #eee;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+
+.login-button {
+    background: #edf6ff;
+}
+
+.button020 a:hover:before {
+    width: 1.5rem;
+}
+
+.button020 a:hover:after {
+    opacity: 1;
+    width: 8px;
+    height: 8px;
+}

@@ -1,0 +1,72 @@
+.auth-container {
+    width: 400px;
+    margin: 80px auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.auth-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #f1f1f1;
+}
+
+.auth-button {
+    width: 100%;
+    padding: 10px;
+    background: #8c7b72;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.login-button {
+    background: #eee;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+
+.login-button {
+    background: #edf6ff;
+}
+
+.button020 a:hover:before {
+    width: 1.5rem;
+}
+
+.button020 a:hover:after {
+    opacity: 1;
+    width: 8px;
+    height: 8px;
+}
